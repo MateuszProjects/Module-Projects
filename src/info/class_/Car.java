@@ -40,13 +40,17 @@ public class Car implements ICar {
 	public boolean PackLuggageToTheTrunk(List<ILuggage> luggageItems) {
 		// TODO Auto-generated method stub
 		if (luggageItems == null) {
+			
 			try {
 				throw new Exception("Luggage does not exist!");
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			if (luggageItems.size() > Trunk.getTrunkCapacity()) {
+		}
+	
+			if (luggageItems.size() > Trunk.getTrunkCapacity()) 
+			{
 				System.out.println("Car trunk is not big enough for such a luggage!");
 				return false;
 			}
@@ -56,8 +60,6 @@ public class Car implements ICar {
 			  }
 			 
 			 
-			
-		}
 		return true;
 	}
 }

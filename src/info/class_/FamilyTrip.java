@@ -19,20 +19,18 @@ public class FamilyTrip {
 		System.out.println("Family is Packing the car!");
 		boolean packingIsSuccess = false;
 
-		try {
-			packingIsSuccess = _familyCar.PackLuggageToTheTrunk(_familyLuggage);
-		} catch (Exception ex) {
-			System.out.println("There is a problem with packing" + ex.getMessage());
-		}
+		packingIsSuccess = _familyCar.PackLuggageToTheTrunk(_familyLuggage);
+		
+		System.out.println("There is a problem with packing");
+
 		if (!packingIsSuccess) {
 			System.out.println("Too much luggage!");
 			return false;
 		}
 
 		System.out.println("Dad is checking how much fuel we have!");
-		 int carFuelLevel = _familyCar.CheckFuleLever();
-	
-	
+		int carFuelLevel = _familyCar.CheckFuleLever();
+
 		if (carFuelLevel < 50) {
 			System.out.println("Dad needs to tank our family car!");
 			return false;
