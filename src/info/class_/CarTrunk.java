@@ -1,4 +1,4 @@
-package info.classys;
+package info.class_;
 
 import info.interfce.ICarTrunk;
 import info.interfce.ILuggage;

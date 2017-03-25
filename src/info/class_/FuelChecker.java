@@ -1,4 +1,4 @@
-package info.classys;
+package info.class_;
 
 import java.util.Random;
 

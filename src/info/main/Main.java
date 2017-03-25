@@ -5,10 +5,10 @@ package info.main;
 import java.util.ArrayList;
 import java.util.List;
 
-import info.classys.Car;
-import info.classys.CarTrunk;
-import info.classys.FamilyTrip;
-import info.classys.Luggage;
+import info.class_.Car;
+import info.class_.CarTrunk;
+import info.class_.FamilyTrip;
+import info.class_.Luggage;
 import info.interfce.ILuggage;
 
 public class Main {
