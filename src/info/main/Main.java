@@ -21,7 +21,7 @@ public class Main {
 		Luggage momyBag = new Luggage("Huge momy bag");
 		Luggage tennisRacket = new Luggage("My tennis racket");
 		Luggage dadTools = new Luggage("Dad tools");
-		
+	//	Luggage sonBag = new Luggage("Son  bag");
 	
 		List<ILuggage> ourLuggage = new ArrayList<ILuggage>();
 		ourLuggage.add(momyBag);
