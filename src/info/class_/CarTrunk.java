@@ -25,7 +25,7 @@ public class CarTrunk implements ICarTrunk{
 	@Override
 	public void PackItem(String carModel, ILuggage item) {
 		// TODO Auto-generated method stub
-		System.out.println(String.format("New item: {0} has been packed to {1} trunk", item.getName(), carModel));
+		System.out.println(String.format("New item: {0} has been packed to {1} trunk"+ item.getName() + carModel));
 		
 	}
 

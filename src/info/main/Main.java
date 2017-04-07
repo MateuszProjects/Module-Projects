@@ -15,7 +15,7 @@ public class Main {
 	
 	public static void main(String[] args){
 	
-		CarTrunk  carTrunk = new CarTrunk(1);
+		CarTrunk  carTrunk = new CarTrunk(3);
 		Car ourFamillyCar = new Car("Honda Accord", carTrunk);
 		
 		Luggage momyBag = new Luggage("Huge momy bag");
