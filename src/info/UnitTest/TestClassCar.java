@@ -1,0 +1,14 @@
+package info.UnitTest;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestClassCar {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
