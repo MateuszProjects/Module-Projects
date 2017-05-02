@@ -28,6 +28,8 @@ public class Car implements ICar {
 		Trunk = trunk;
 
 	}
+	
+
 
 	@Override
 	public int CheckFuleLever() {
